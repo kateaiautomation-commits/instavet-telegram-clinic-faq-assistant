@@ -1,0 +1,17 @@
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+
+# Credentials and secrets
+*.secret
+credentials.json
+secrets.json
+
+# Unsanitized Make.com blueprints
+private-blueprints/
+unsanitized-*.json
+
+# System files
+.DS_Store
+Thumbs.db
